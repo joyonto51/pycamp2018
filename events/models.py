@@ -12,3 +12,5 @@ class Event(models.Model):
 
     def __str__(self):
         return self.event_name
+class user(models.Model):
+	pass
